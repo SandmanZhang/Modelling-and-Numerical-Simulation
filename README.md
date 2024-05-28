@@ -6,6 +6,30 @@ Part 4: Optimization
 
 ## Problem Set
 
+### Part 1:Numerical Solving 3D Broadwell Equations:
+Consider the following 3D equations defined on $\Omega=(0,1)\times(0,1)\times(0,1)$:
+
+$$\frac{\partial{F_1}}{\partial{x}}=\sigma(\frac{1}{6}\sum_{i=1}^{6}F_i-F_1)$$
+
+$$-\frac{\partial{F_2}}{\partial{x}}=\sigma(\frac{1}{6}\sum_{i=1}^{6}F_i-F_2)$$
+
+$$\frac{\partial{F_3}}{\partial{y}}=\sigma(\frac{1}{6}\sum_{i=1}^{6}F_i-F_3)$$
+
+$$-\frac{\partial{F_4}}{\partial{y}}=\sigma(\frac{1}{6}\sum_{i=1}^{6}F_i-F_4)$$
+
+$$\frac{\partial{F_5}}{\partial{z}}=\sigma(\frac{1}{6}\sum_{i=1}^{6}F_i-F_5)$$
+
+$$-\frac{\partial{F_6}}{\partial{z}}=\sigma(\frac{1}{6}\sum_{i=1}^{6}F_i-F_6)$$
+
+The boundary conditions are:
+
+$$F_1(-1,y,z)=F_b(y,z),\quad F_3(x,-1,z)=F_b(x,z),\quad F_5(x,y,-1)=F_b(x,y)$$
+
+$$F_2(1,y,z)=F_4(x,1,z)=F_6(x,y,1)=0$$
+
+Where:
+$$$$
+
 ### Part 4:Optimization
 
 #### Q1: Geometric Programming
